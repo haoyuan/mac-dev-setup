@@ -30,6 +30,7 @@ If you have any comments or suggestions, feel free to give me a shout [on Twitte
 - [Elasticsearch](#elasticsearch)
 - [Projects folder](#projects-folder)
 - [Apps](#apps)
+- [Services](#services)
 
 ## System update
 
@@ -799,5 +800,31 @@ Here is a quick list of some apps I use, and that you might find useful as well:
 - [Path Finder](http://cocoatech.com/pathfinder/): I love OSX, it's Unix so great for developers, and all of it just works and looks pretty! Only thing I "miss" from Windows (OMG what did he say?), is a decent file explorer. I think Finder is a pain to use. So I gladly paid for this alternative, but I understand others might find it expensive just to not have to use Finder. **($40)**
 - [Evernote](https://evernote.com/): If I don't write something down, I'll forget it. As a developer, you learn so many new things every day, and technology keeps changing, it would be insane to want to keep it all in your head. So take notes, sync them to the cloud, and have them on all your devices. To be honest, I switched to [Simplenote](http://simplenote.com/) because I only take text notes, and I got tired of Evernote putting extra spaces between paragraphs when I copy & pasted into other applications. Simplenote is so much better for text notes (and it supports Markdown!). **(Both are free)**
 - [Moom](http://manytricks.com/moom/): Don't waste time resizing and moving your windows. Moom makes this very easy. **($10)**
+- [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver): Unarchive rar, zip, tar, tar.gz etc. with one app **(open source)**
 
+## Services
+
+I set up the following workflows to simplify life
+
+To write your own workflows, please google "mac workflow"
+
+All these workflows are in **./service**
+
+If you'd like to try, **copy** a .workflow to your local **~/Library/Services** and enable them in **System Preference Settings/Keyboard/ShortCut/Service**
+
+or **double click** and choose **"Install"**
+
+### chrome_google.workflow
+
+Mac provides "search with google" option when you select words and right clik. However, its default browser is safari, so you may "search with google" in safari when you want the result to show in chrome! 
+
+This workflow provides a **"chrome_google"** service, enables you to search with google in chrome from anywhere, on Mac. 
+
+Just **select** words, **right click** to choose **"chrome_google"** or use short cut **\<command\>\<shift\>K**
+
+### new iTerm.workflow
+
+This enables you to trigger a new iTerm window seperately with short cut **\<ctrl\>\<alt\>\<command\>T**
+
+Whenever you want a new shell for temporary work, you don't need to click on the iTerm icon, choose "new window". By the way, use \<ctrl\>\<space\> to trig the spotlight and then type in iterm will refer you to an existed iterm window instead of creating a new one.
 
